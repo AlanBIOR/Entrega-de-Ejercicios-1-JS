@@ -12,10 +12,12 @@ const generarColorRGB = () => {
 };
 
 // 3. Escuchamos el evento de clic
-boton.addEventListener('click', () => {
-  const nuevoColor = generarColorRGB();
-  cuerpo.style.backgroundColor = nuevoColor;
-  
-  // Imprimimos el valor para verificarlo
-  console.log("Color actual:", nuevoColor);
-});
+if (boton) {
+  boton.addEventListener('click', () => {
+    const nuevoColor = generarColorRGB();
+    cuerpo.style.backgroundColor = nuevoColor;
+    
+    // Imprimimos el valor para verificarlo
+    console.log("Color actual:", nuevoColor);
+  });
+}

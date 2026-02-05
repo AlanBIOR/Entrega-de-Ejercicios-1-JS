@@ -1,3 +1,10 @@
 import './style.css';
-// Importamos la lógica del ejercicio 1
 import './js/js_ejercicio_1.js';
+import './js/js_ejercicio_2.js';
+import './js/js_ejercicio_3.js';
+import './js/js_ejercicio_4.js';
+import './js/js_ejercicio_5.js';
+import './js/js_ejercicio_6.js';
+import './js/js_ejercicio_7.js';
+import './js/js_ejercicio_8.js';
+import './js/js_ejercicio_9.js';
