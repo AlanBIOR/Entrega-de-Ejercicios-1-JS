@@ -3,7 +3,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   // 1. Base relativa para que funcione en cualquier subcarpeta de GitHub Pages
-  base: './', 
+  base: '/Entrega-de-Ejercicios-1-JS/', 
   
   server: {
     watch: {
