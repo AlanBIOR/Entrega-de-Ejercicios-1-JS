@@ -35,6 +35,10 @@ ul.list-element li {
   list-style: none;
 }
 
+#app p {
+  color: white;
+}
+
 /* Contenedor principal para centrar y dar fondo */
 #app-5 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
