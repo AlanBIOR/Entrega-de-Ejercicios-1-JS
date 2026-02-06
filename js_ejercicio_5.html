@@ -10,12 +10,23 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="theme-color" content="#1e7bbf">
+      <script type="module" src="./src/main.js"></script>
   </head>
   <body>
     <p><a href="index.html">Atras</a></p>
-    <div id="app">
-        <h1 class="title">5. Calculadora Sencilla</h1>
+    <div id="app-5">
+      <h1 class="title-5">5. Calculadora Sencilla</h1>
+      <div class="calculadora">
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        
+        <button class="btn-operacion" id="sumar">+</button>
+        <button class="btn-operacion" id="restar">-</button>
+        <button class="btn-operacion" id="multiplicar">x</button>
+        <button class="btn-operacion" id="dividir">/</button>
+      </div>
+      <p>Resultado: <span class="resultado">0</span></p>
     </div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>

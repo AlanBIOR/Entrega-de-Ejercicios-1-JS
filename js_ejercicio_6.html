@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-
-      <title>Temporizador con Inicio, Pausa y Reinicio</title>
+      <title>Temporizador | Ejercicios JS</title>
       <meta name="description" content="Página de ejercicios sencillos de JS">
       <meta name="keywords" content="p, h1, h2, h3, h4, h5">
       <meta name="author" content="@Alan Rodríguez">
@@ -10,12 +9,27 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="theme-color" content="#1e7bbf">
+      <script type="module" src="./src/main.js"></script>
   </head>
   <body>
-    <p><a href="index.html">Atras</a></p>
-    <div id="app">
-        <h1 class="title">6. Temporizador con Inicio, Pausa y Reinicio</h1>
+    <p><a href="index.html">← Volver al inicio</a></p>
+    
+    <div id="app-6">
+        <h1 class="title-6">6. Temporizador Maestro</h1>
+
+        <div class="contenedor ejercicio">
+          <div class="display-temporizador">
+            <span id="min">00</span>:<span id="seg">00</span>:<span id="micro_seg">00</span>
+          </div>
+
+          <div class="controles">
+            <button class="btn-timer" id="btnIniciar">Iniciar</button>
+            <button class="btn-timer" id="btnPausar">Pausar</button>
+            <button class="btn-timer" id="btnReiniciar">Reiniciar</button>
+          </div>
+        </div>
     </div>
-    <script type="module" src="/src/main.js"></script>
+
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
