@@ -1,4 +1,3 @@
-import './style.css';
 import { initEjercicio1 } from './js/js_ejercicio_1.js';
 import { initEjercicio2 } from './js/js_ejercicio_2.js';
 import { initEjercicio3 } from './js/js_ejercicio_3.js';
