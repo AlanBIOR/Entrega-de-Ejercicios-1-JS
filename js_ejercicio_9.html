@@ -15,8 +15,21 @@
   <body>
     <p><a href="index.html">Atras</a></p>
     <div id="app">
-        <h1 class="title">9. Lista de Tareas con LocalStorage</h1>
-    </div>
+      <h1 class="title">9. Lista de Tareas con LocalStorage</h1>
+      <div class="ejercicio-9">
+        <div class="input-group">
+          <input type="text" id="nueva-tarea" placeholder="¿Qué hay que hacer?">
+          <button type="button" id="btn-agregar">Agregar</button>
+        </div>
+
+        <ul id="lista-tareas" class="todo-list"></ul>
+
+        <div class="acciones">
+          <button type="button" id="btn-seleccionar-todo" class="btn-secundario">Seleccionar todo</button>
+          <button type="button" id="btn-limpiar" class="btn-danger">Limpiar completadas</button>
+        </div>
+      </div>
+      </div>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

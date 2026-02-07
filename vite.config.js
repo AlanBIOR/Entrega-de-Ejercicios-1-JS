@@ -2,9 +2,18 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  // Asegúrate de que este nombre sea IDENTICO al de tu repo en GitHub
   base: '/Entrega-de-Ejercicios-1-JS/', 
   
+  server: {
+    // Forzamos el refresco en caliente (Hot Module Replacement)
+    hmr: true,
+    watch: {
+      // El Polling es vital para que detecte cambios en servidores domésticos o Mini PCs
+      usePolling: true,
+      interval: 100, // Revisa cambios cada 100ms
+    },
+  },
+
   build: {
     rollupOptions: {
       input: {

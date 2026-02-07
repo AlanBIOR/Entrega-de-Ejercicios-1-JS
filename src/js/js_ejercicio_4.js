@@ -1,5 +1,4 @@
 export function initEjercicio4() {
-  const form = document.querySelector('.form')
   const inputText = document.querySelector('#text') 
   const lista = document.querySelector('.list-element')
 
